@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Patrick Hand", cursive;
+}
+body {
+  text-align: center;
+  color: #0c2d57;
+  background-color: #efecec;
+}
+
+.road {
+  width: 100vw;
+  height: 40vh;
+  background-image: url("./assets/road.svg");
+  background-position: center;
+}
+.counter {
+  padding: 24px 48px;
+  margin: 56px 0px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 8px;
+}
+.counting {
+  padding: 8px 36px;
+  margin: 16px 0;
+  font-size: 64px;
+  color: white;
+  border-radius: 8px;
+  background-color: #e14b4b;
+  display: inline-block;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 0;
+}
+button {
+  all: unset;
+  padding: 8px 24px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+}
+.decrease {
+  background-color: #ffffff;
+  border: 2px solid #bf0b00;
+  color: #bf0b00;
+}
+.increase {
+  background-color: #ffffff;
+  border: 2px solid #00683c;
+  color: #00683c;
+}
+.reset {
+  color: #878787;
+}
+.buttonSwal {
+  background-color: #ffffff;
+  color: #00683c;
+  border: 2px solid #00683c;
+  border-radius: 4px;
+  font-size: 24px;
+}
+.swal-buttons-group {
+  display: flex;
+  gap: 16px;
+}
